@@ -1,0 +1,143 @@
+.webHooksMainContainer{
+    width: 96%;
+    margin-left: 25px;
+    height: auto;
+box-shadow: 0 0 5px 0 black;    
+border-radius: 12px;
+padding: 12px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.webHooks-first-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.webHooks-first-section-1{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.webHooks-first-section-1>h3{
+    font: 600 20px 'Poppins';
+    color: #16404D;
+
+}
+.webHooks-first-section-1>div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.webHooks-first-section-1>div>p{
+    font: 400 14px 'Poppins';
+    color: #797D8C;
+}
+.webHooks-first-section>a>button{
+    background-color: #3FAA54;
+    color: #ffffff;
+    text-transform: capitalize;
+    font: 500 14px 'Poppins';
+}
+.webHooks-second-section{
+    width: 100%;
+    height: 240px;
+    background-color: #F6F9FF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.webHooks-second-section-1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.webhooksUrlTitle{
+    font: 400 16px 'Poppins';
+    color: #2C2C2C;
+}
+.webHooks-second-section-1>input{
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #DADADA;
+    padding: 10px;
+    border-radius: 10px;
+    font: 300 13px 'Poppins';
+    color: #8F8F8F;
+
+}
+.webhooksUrlResponse,.webhooksWebsiteUrl{
+    font: 500 13px 'Poppins';
+    color: #8F8F8F;
+}
+.webhooksUrlResponse>span{
+    font: 000 13px 'Poppins';
+    color: #DF5753;
+}
+.webHooks-second-section>button{
+    background-color: #3FAA54;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: capitalize;
+    width: 20%;
+}
+.webHooks-third-section{
+    width: 100%;
+    height: 180px;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    column-gap: 4%;
+
+}
+.webHooks-third-section-left,.webHooks-third-section-right{
+    width: 100%;
+    height: 100%;
+    background-color: #F6F9FF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.webHooks-third-section-left-1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.webHooks-third-section-left-1>p{
+    font:400 16px 'Poppins';
+    color: #2C2C2C;
+}
+.webHooks-third-section-left-1>input{
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #DADADA;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+        font: 300 13px 'Poppins';
+        color: #8F8F8F;
+}
+.webHooks-third-section-left>button{
+    background-color: #3FAA54;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: capitalize;
+    width: 50%;    
+}
+.webHooks-third-section-right>p{
+    font: 300 14px 'Poppins';
+    color: #2C2C2C;
+}
+
+.webHooks-third-section-right>button{
+    background-color: #3FAA54;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: capitalize;
+    width: 50%;   
+}

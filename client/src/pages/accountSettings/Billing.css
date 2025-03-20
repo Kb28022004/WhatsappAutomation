@@ -1,0 +1,68 @@
+.billingMainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #F6F9FF;
+    padding: 30px;
+}
+.billingMainContainer button{
+    background-color: #3FAA54;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font: 500 14px 'Poppins';
+    color: #FFFFFF;
+}
+
+.billing-first-section,.billing-second-section-3{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.billing-first-section>h3,.billing-second-section-3>h3,.billing-third-section>div>h3{
+    font: 500 18px 'Poppins';
+    color: #2C2C2C;
+}
+.billing-first-section>p,.billing-second-section-3>p,.billing-third-section>div>p{
+    font: 400 14px 'Poppins';
+    color: #797D8C;
+}
+.billing-second-section-3>p>span,.billing-third-section>div>p span{
+    font: 600 14px 'Poppins';
+    color: #2C2C2C;
+}
+.billing-second-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.billing-second-section-1,.billing-third-section{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.billing-second-section-1>div,.billing-third-section>div{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.billing-second-section-1>div .trialPlan{
+    font: 400 15px 'Poppins';
+    color: #2C2C2C;
+}
+.billing-second-section-1>div .trialPlan>span{
+    font: 600 15px 'Poppins';
+    color: #2C2C2C;
+}
+.billing-second-section-1>div>p{
+    font: 400 14px 'Poppins';
+    color: #797D8C;
+}
+.billing-second-section-2>p{
+    font: 400 14px 'Poppins';
+    color: #797D8C;
+}
+.billing-second-section-2>p>span{
+    font: 400 14px 'Poppins';
+    color: #3FAA54;
+}

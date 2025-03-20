@@ -1,0 +1,118 @@
+.personalDetailsMainContainer{
+    width: 100%;
+    height: 400px;
+    background-color: #F6F9FF;
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+}
+.personalDetails-third-section,.personalDetails-sixth-section{
+    width: 100%;
+    display: flex;
+    gap: 54px;
+    padding: 20px;
+}
+.personalDetails-third-section-left,.personalDetails-third-section-right,.personalDetails-sixth-section-left ,.personalDetails-sixth-section-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.personalDetails-sixth-section-right{
+    margin-left: 50px;
+}
+.personalDetails-third-section-left p,.personalDetails-sixth-section-left p{
+font: 400 14px 'Poppins';
+color: #797D8C;
+}
+.personalDetails-third-section-right p,.personalDetails-sixth-section-right p{
+    font: 400 14px 'Poppins';
+    color: #2C2C2C;
+    }
+  .personalDetails-fourth-section{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .personalDetails-first-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .personalDetails-first-section >a >button{
+background-color: #3FAA54;
+border-radius: 5px;
+color: #FFFFFF;
+text-transform: capitalize;
+font: 500 14px 'Poppins';
+    }
+
+    .personalDetails-first-section>div>h4,.personalDetails-fourth-section>h4{
+        font: 500 16px 'Poppins';
+        color: #2C2C2C;
+    }
+    .personalDetails-first-section>div>p,.personalDetails-fourth-section>p{
+        font: 400 14px 'Poppins';
+        color: #797D8C;
+    }
+    .editPersonalDetailsMainContainer{
+       display: flex;
+       flex-direction: column;
+       gap: 12px;
+    }
+    .editContenform{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .editContenform-1,.editContenform-2{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .editContenform-1>p,.editContenform-2>p{
+        font: 500 17px 'Poppins';
+        color: #2C2C2C;
+    }
+    .editContentForm-1-1,.editContentForm-1-2,.editContentForm-2-1{
+display: flex;
+flex-direction: row;
+gap: 15px;
+    }
+    .businessName,.website,.state,.country,.name,.mobile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .editContenform label{
+        font: 400 14px 'Poppins';
+        color: #AEAEAE;
+    }
+    .editContenform input , select{
+        width: 100%;
+        height: 40px;
+        background-color: #FFFFFF;
+        border: 1px solid #DADADA;
+        border-radius: 10px;
+        padding: 8px;
+        font: 400 13px 'Poppins';
+        color: #2C2C2C;
+    }
+   .editContenform-3{
+    width: 70%;
+   }
+   .editcancelButton{
+    background-color: #FFFFFF !important;
+    border: 1px solid #E2DFDF !important;
+    font: 400 14px 'Poppins';
+    color: #AEAEAE !important;
+    border-radius: 5px;
+   }
+   .editupdateButton{
+    background-color: #3FAA54 !important;
+    border: 1px solid #E2DFDF !important;
+    font: 400 14px 'Poppins';
+    color: #FFFFFF !important;
+    border-radius: 5px;
+   }

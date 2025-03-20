@@ -1,0 +1,53 @@
+.headerMainContainer{
+    width: 96%;
+    height: 70px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-left: 25px;
+}
+.leftHeaderItems{
+    display: flex;
+    flex-direction: column;
+}
+.leftHeaderItems>h5{
+    color: #2B3674;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -2%;
+
+}
+.leftHeaderItems>p{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 13px;
+    color: #707EAE;
+}
+.rightHeaderItems{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    /* background-color: rgb(223, 222, 221); */
+    box-shadow: 0 0 5px 0 black;    
+
+    padding: 5px;
+}
+.rightHeaderItems>input{
+    border-radius: 45px;
+    height: 35px;
+    border: none;
+    background-color: #F4F7FE;
+    border: 0.1px solid black;
+    color: #8F9BBA;
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+}
+.rightHeaderItems .profilePicAvtar{
+    width: 35px;
+    height: 35px;
+}

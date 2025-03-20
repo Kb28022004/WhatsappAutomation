@@ -1,0 +1,335 @@
+.whatsappDashboardMainContainer{
+    width: 96%;
+    margin-left: 25px;
+    height: auto;
+box-shadow: 0 0 5px 0 black;    
+border-radius: 12px;
+padding: 12px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.dashboard-section-1{
+    display: flex;
+    flex-direction: column;
+}
+.dashboard-section-1>h3{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #16404D;
+    line-height: 35px;
+    letter-spacing: -2%;
+}
+.dashboard-section-1>p{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #797D8C;
+    letter-spacing: -2%;
+}
+.dashboard-section-2{
+    width: 100%;
+    height: 180px;
+    background-color: #F3FAF499;
+    border: 0.5px solid #DAE2DB;
+    border-radius: 5px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.authentication-section{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.authentication-section-1,.authentication-section-2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.authentication-section-1>p{
+font-size: 18px;
+font-family: 'Poppins';
+color: #278986;
+line-height: 35px;
+letter-spacing: -2%;
+}
+.authentication-section .authentication-lockIcon{
+    font-size: 30px;
+    color: #278986;
+}
+.authentication-section-2 button{
+    text-transform: capitalize;
+    background-color: #3FAA54;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.authentication-section-3{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.authentication-section-3>h4{
+    font-size: 16px;
+font-family: 'Poppins';
+line-height: 35px;
+letter-spacing: -2%;
+color: #16404D;
+}
+.authentication-section-3>p{
+    font-size: 14px;
+    font-family: 'Poppins';
+    letter-spacing: -2%;
+    color:#16404D;
+    font-weight: 300;
+}
+.authenticated-image{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.authenticated-image>img{
+    width:320px;
+    height: 160px;
+}
+.dashboard-section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap: 4px;
+}
+.dashboard-section-3>h5{
+    font-size: 20px;
+    color: #278986;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.dashboard-section-3>p{
+    font-size: 16px;
+    color: #797D8C;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.whatsappEmojiIcon ,.favouriteEmojiIcon,.imagesEmojiIcon{
+    font-size:120px !important; /* Adjust size as needed */
+  }
+  .whatsappEmojiIcon,.favouriteEmojiIcon,.imagesEmojiIcon{
+    color: #3FAA54;
+  }
+  .dashboard-section-5{
+    display: grid;
+    place-items: center;
+
+  }
+  .dashboard-section-5>h5{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    color: #278986;
+  }
+  .ArrowCircleRightOutlinedIcon{
+    font-size: 35px !important;
+    text-align: center !important;
+    margin-top: 100px !important;
+    color: #7DCE8D;
+    
+  }
+
+  .dashboard-section-6,.dashboard-section-7{
+    width: 100%;
+    height: 320px;
+    background-color: #F9F9FA;
+    border: 0.5px solid #DAE2DB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    gap: 12px;
+  }
+  .dashboard-section-7{
+    background-color: #fff !important;
+    border: none;
+  }
+  .dashboard-section-6>h4,.dashboard-section-7>h4{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color:#278986;
+  }
+  .dashboard-section-8{
+    width: 100%;
+    height: 150px;
+    max-height: 150px;
+    background-color: #F3FAF499;
+    border: 0.5px solid #DAE2DB;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    grid-template-columns:43% 17% 35%;
+    column-gap: 4%;
+    padding: 15px;
+  }
+  .left-dashboard-section-8,  .middle-dashboard-section-8,  .right-dashboard-section-8{
+    width: 100%;
+    height: 80%;
+   
+
+}
+.right-dashboard-section-8>img{
+    width: 50%;
+    height: 100%;
+}
+.left-dashboard-section-8{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.left-dashboard-section-8>h3{
+    font: 500 16px 'Poppins';
+    color: #278986;
+}
+.left-dashboard-section-8>p{
+    color: #16404D;
+    font: 400 14px 'Poppins';
+}
+.middle-dashboard-section-8>button{
+width: 100%;
+color: #F9F9FA;
+background-color: #3FAA54;
+text-transform: capitalize;
+margin-top: 20px;
+
+}
+.right-dashboard-section-8{
+display: grid;
+place-items: center;
+}
+.dashboard-section-9{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 48%  48%;
+    column-gap: 2%;
+}
+.scriwoSetting ,.smsReports{
+    width: 100%;
+    height: 100%;
+    background-color: #F9F9F966;
+    border: 0.5px solid #DAE2DB;
+    border-radius: 8px;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.scriwoSetting-part1,.smsReports-part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.scriwoSetting-part1>button,.smsReports-part1>button{
+text-transform: capitalize;
+font: 500 14px 'Poppins';
+border: 1px solid #80B18A;
+}
+.scriwoSetting-part1--1,.smsReports-part1--1{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.scriwoSetting-part1--1>h3,.smsReports-part1--1>h3{
+    font: 500 20px 'Poppins';
+    color: #17515E;
+}
+.scriwoSetting-part1--1>p,.smsReports-part1--1>p{
+    font: 400 12px 'Poppins';
+    color: #16404D;
+}
+.scriwoSetting-part2,.smsReports-part2{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.scriwoSetting-part2>img,.smsReports-part2>img{
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard-section-10{
+    width: 100%;
+    height: 170px;
+    background-color: #F9F9F966;
+    border: 0.5px solid #DAE2DB;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: 70% 30%;
+
+}
+.dashboard-section-10-upper{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #E2EFE2;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.dashboard-section-10-upperPortion-left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.dashboard-section-10-upperPortion-left>h3{
+    font: 500 18px 'Poppins';
+    color: #278986;
+}
+.dashboard-section-10-upperPortion-left>p{
+    font: 400 14px 'Poppins';
+    color:#16404D
+}
+.dashboard-section-10-upperPortion-right{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.dashboard-section-10-upperPortion-right>button{
+    border-radius: 5px;
+    background-color: #3FAA54;
+    color: #F9F9FA;
+    font: 500 14px 'Poppins';
+    text-transform: capitalize;
+}
+.dashboard-section-10-lower{
+    width: 100%;
+    height: 100%;
+   margin-top: 15px;
+}
+.dashboard-section-10-lower>p{
+    font: 400 14px 'Poppins';
+    color: #16404D;
+}
+.dashboard-section-10-lower>p>span{
+    color: #3FAA54;
+}
+.dashboard-section-11{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paymentHistoryContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.paymentHistoryContainer>h4{
+    font: 500 17px 'Poppins';
+    color: #278986;
+}

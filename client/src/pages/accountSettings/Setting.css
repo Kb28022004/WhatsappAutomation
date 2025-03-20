@@ -1,0 +1,47 @@
+.settingMainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.settingMainContainer button{
+    background-color: #3FAA54;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font: 500 14px 'Poppins';
+    color: #FFFFFF;
+  }
+.setting-first-section{
+    width: 100%;
+    height: 310px;
+    background-color: #F6F9FF;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.setting-first-section-1,.setting-first-section-2,.setting-first-section-3,.setting-second-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.setting-first-section-1>div,.setting-first-section-3>div,.setting-first-section-2-1,.setting-second-section>div{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.setting-first-section-3>div{
+    width: 70%;
+}
+.setting-first-section-1>div>h3,.setting-first-section-3>div>h3,.setting-first-section-2-1>h3,.setting-second-section>h3{
+    font: 600 16px 'Poppins';
+    color: #2C2C2C;
+
+}
+.setting-first-section-1>div>p,.setting-first-section-3>div>p,.setting-first-section-2-1 p,.setting-second-section>div>p{
+    font: 400 14px 'Poppins';
+    color: #797D8C;
+    
+}

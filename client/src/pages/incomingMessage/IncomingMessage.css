@@ -1,0 +1,53 @@
+.incommingMessageMainContainer{
+    width: 96%;
+    margin-left: 25px;
+    height: 120vh;
+box-shadow: 0 0 5px 0 black;    
+border-radius: 8px;
+padding: 12px;
+display: flex;
+flex-direction: column;
+gap: 4px;
+}
+.incommingMessageMainContainer>h3{
+    font: 600 22px 'Poppins';
+    color: #16404D;
+}
+.incommingMessageMainContainer>p{
+    font: 400 16px 'Poppins';
+    color: #797D8C;
+}
+
+.tableContainer {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .tableHead {
+    background-color: #17515E !important;
+  }
+  
+  .tableHeadCell {
+    font: 500 14px 'Poppins';
+    color: #FFFFFF !important;
+  }
+  
+ 
+.contentColumn {
+    width: 400px; /* Increased width for content */
+    white-space: normal !important;
+    word-wrap: break-word !important;
+   
+  }
+ 
+  .mobileColumn,.noColumn,.contentColumn,.deviceColumn,.dateColumn,.webhookColumn{
+    font: 400 13px 'Poppins' !important;
+    color: #16404D !important;
+  }
+  .incomingMessageLastSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+  }

@@ -1,0 +1,31 @@
+.loginNotFoundMainContainer{
+    width: 100%;
+    height: 350px;
+    background-color: #F3FAF499;
+    border: 0.5px solid #DAE2DB ;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    gap: 4px;
+}
+.loginNotFoundMainContainer>img{
+    width: 16%;
+    height: 100%;
+}
+
+.loginNotFoundMainContainer>h3{
+    font: 700 19px 'Poppins';
+    color: #16404D;
+}
+.loginNotFoundMainContainer>p{
+    font: 500 14px 'Poppins';
+    color: #16404D;
+}
+.loginNotFoundMainContainer>button{
+    background-color: #3FAA54;
+    color: white;
+    font: 500 14px 'Poppins';
+    border-radius: 5px;
+    text-transform: capitalize;
+
+}

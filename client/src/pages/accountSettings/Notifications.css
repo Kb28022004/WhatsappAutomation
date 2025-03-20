@@ -1,0 +1,31 @@
+.notificationMainContainer{
+    width: 100%;
+    background-color: #F6F9FF;
+    height: 350px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.notificationMainContainer h3{
+    font: 600 16px 'Poppins';
+    color: #2C2C2C;
+}
+.notification-first-section,.notification-third-section,.notification-second-section,.notification-fourth-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.notification-first-section>p,.notification-third-section>p{
+    font: 400 14px 'Poppins';
+    color: #797D8C;
+}
+.notification-second-section>div,.notification-fourth-section>div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.notification-second-section>div>p,.notification-fourth-section>div>p{
+    font: 400 14px 'Poppins';
+    color: #2C2C2C;
+}

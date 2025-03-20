@@ -1,0 +1,201 @@
+/* .contacteUsMainContainer{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: grid;
+    place-items: center;
+} */
+.contacteUsContainer{
+    width: 100vw;
+    height: 125vh;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-family: 'Poppins';
+}
+.contacteUsImageSection{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(#2EBF91,#8360C3);
+    display: grid;
+    place-items: center;
+
+}
+.contacteUsImageSection-1{
+    width: 80%;
+    height: 90%;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    background-color: #37697A;
+   display: grid;
+   place-items: center;
+}
+.contacteUsImageSection-1>div{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 25px;
+}
+.contacteUsImageSection-1>div>p{
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1%;
+}
+.contacteUsImageSection-1>div>img{
+    width: 100%;
+    height: 280px;
+}
+.contacteUsDetailsSection{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(236, 232, 232);
+    border-left: none !important;
+    display: grid;
+    grid-template-rows: 8% 95%;
+  
+    padding: 15px;
+
+}
+.contacteUsDetailsSection-section1{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.contacteUsDetailsSection-section1>h2>span{
+color: #28D146;
+}
+.contacteUsDetailsSection-section2{
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+.contacteUsDetailsSection-section2-item1{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.contacteUsDetailsSection-section2-item1>h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+}
+.contacteUsDetailsSection-section2 >form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+}
+.contacteUsDetailsSection-section2 >form div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contacteUsDetailsSection-section2 >form div>label{
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: #4D5959;
+}
+.contacteUsDetailsSection-section2 >form div>input,textarea{
+    height: 45px;
+    padding: 12px;
+    background-color: #EFF0F2;
+    border: none;
+    border-radius: 6px;
+    color: #838383;
+    letter-spacing: 0%;
+    line-height: 100%;
+    font-family: 'Poppins';
+}
+.iamnotarobot{
+    height: 50px !important;
+    border: 0.2px solid #D3D3D3;
+    background-color: #F9F9F9;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 1px #00000014 !important;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.iamnotarobot>div{
+    display: flex;
+    flex-direction: row !important;
+    gap: 2px !important;
+    align-items: center !important;
+}
+.iamnotarobot>div>p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.termsConditions{
+display: flex;
+flex-direction: row !important;
+gap: 3px !important;
+align-items: center;
+}
+.termsConditions >p{
+    font-size: 14px;
+}
+.custom-checkbox{
+    color: #ada7a7 !important;
+ 
+}
+.contacteUsDetailsSection-section2 >form >button{
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #3FAA54;
+
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.google-signup{
+   height: 60px !important;
+   border: 0.5px solid #D2D2D2;
+   display: flex !important;
+   flex-direction: row !important;
+   border-radius: 6px;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+.google-signup>img{
+    height: 140px;
+}
+.google-signup>p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+}
+.terms-privacy{
+    display: flex !important;
+    flex-direction: row !important;
+align-items: center !important;
+justify-content: center !important;
+gap: 25px;
+font-size: 12px;
+font-weight: 400;
+}
+.terms-privacy>a{
+    text-decoration: none;
+}
+.contacteUsFooter{
+    
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-family: 'Poppins' !important;
+}
+.contacteUsFooter>p>span{
+    font-size: 18px;
+}
+.textAreaContainer>textarea{
+    height: 120px;
+}

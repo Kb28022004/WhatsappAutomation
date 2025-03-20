@@ -1,0 +1,29 @@
+.circularOuterLayer{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    border-right: 3px solid #3FAA54;
+    border-top: 3px solid #3FAA54;
+    border-bottom: 1px solid #3FAA54;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.innerCiruclarLayer{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    border: 1px solid #3FAA54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerCiruclarLayer>img{
+    width: 80%;
+    height: 60%;
+}
+.textContent{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}

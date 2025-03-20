@@ -1,0 +1,64 @@
+.autoReplyMainContainer{
+    width: 96%;
+    margin-left: 25px;
+    height: auto;
+box-shadow: 0 0 5px 0 black;    
+border-radius: 12px;
+padding: 12px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+
+  .autoReplySection-1 {
+    text-align: center;
+  }
+  
+  .autoReplySection-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .messageBox {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  
+  .sender {
+    background-color: #d1e7ff;
+    align-self: flex-start;
+  }
+  
+  .receiver {
+    background-color: #0047ab;
+    color: white;
+    align-self: flex-end;
+  }
+  
+  .autoReplySection-3 {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .autoReplySection-3 input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .autoReplySection-3 button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #0047ab;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
