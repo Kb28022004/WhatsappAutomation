@@ -51,3 +51,30 @@
     width: 35px;
     height: 35px;
 }
+.rightHeaderItems {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .profilePicAvtar {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .profilePicAvtar:hover {
+    transform: scale(1.1);
+  }
+  
+  .anchorMenuItem{
+    display:flex;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .anchorMenuItem>p{
+    font: 400 14px 'Poppins';
+    color: #2C2C2C;
+  }

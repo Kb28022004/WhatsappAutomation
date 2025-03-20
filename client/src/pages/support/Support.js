@@ -18,7 +18,7 @@ const Support = () => {
         </p>
       </div>
       <hr />
-      <div className="support-third-section">
+      <form className="support-third-section">
         <div className="support-third-section-1">
           <div className="support-third-section-1--1">
             <div
@@ -90,7 +90,7 @@ const Support = () => {
           <Button className="supportSendButton">Send</Button>
           <Button className="supportCancelButton">Cancel</Button>
         </div>
-      </div>
+      </form>
     </div>
   );
 };

@@ -6,6 +6,7 @@ import LoginNotFound from "../../components/helper/LoginNotFound";
 import loginNotFound from "../../assets/notfound.png";
 import KeyboardArrowRightOutlinedIcon from "@mui/icons-material/KeyboardArrowRightOutlined";
 import PlanExpired from "../../components/planExpired/PlanExpired";
+import { NavLink } from "react-router-dom";
 
 const ManageWhatsapp = () => {
   const [isOn, setIsOn] = useState(false);
@@ -25,7 +26,7 @@ const ManageWhatsapp = () => {
           notFoundImage={loginNotFound}
           notFoundTitle="No WhatsApp Login Found"
           notFoundSubtitle="Please Login Your WhatsApp Beta Account or Download the Latest WhatsApp."
-          notFoundButton={<Button>Get QR-code</Button>}
+          notFoundButton={<Button color="success" variant="contained" component={NavLink} to="/dashboard/manage-whatsapp-login" >Get QR-code</Button>}
         />
         <div className="manageWhatsappMainContainer-section-2-2">
           <div className="manageWhatsappMainContainer-section-2-2-left">

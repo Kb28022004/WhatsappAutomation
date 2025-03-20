@@ -25,6 +25,8 @@ import Billing from "../pages/accountSettings/Billing";
 import Setting from "../pages/accountSettings/Setting";
 import Notifications from "../pages/accountSettings/Notifications";
 import Support from "../pages/support/Support";
+import ViewProfile from "../pages/viewProfile/ViewProfile";
+import ChangePassword from "../pages/changePassword/ChangePassword";
 
 const AppRoutes = () => {
   const routes = [
@@ -51,6 +53,8 @@ const AppRoutes = () => {
         { path: "webhooks", element: <WebHooks /> }, 
         { path: "webhooks-api", element: <WebHooksApi /> }, 
         { path: "support", element: <Support /> }, 
+        { path: "profile", element: <ViewProfile /> }, 
+        { path: "change-password", element: <ChangePassword /> }, 
         {
           path: "account", // ✅ Removed the incorrect leading "/"
           element: <AccountSettings />,
