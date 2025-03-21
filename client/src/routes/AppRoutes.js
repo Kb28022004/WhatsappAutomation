@@ -1,5 +1,4 @@
 import { useRoutes } from "react-router-dom";
-import Home from "../components/Home";
 import Register from "../auth/register/Register";
 import Login from "../auth/login/Login";
 import ContactUs from "../components/contact/ContactUs";
@@ -27,10 +26,14 @@ import Notifications from "../pages/accountSettings/Notifications";
 import Support from "../pages/support/Support";
 import ViewProfile from "../pages/viewProfile/ViewProfile";
 import ChangePassword from "../pages/changePassword/ChangePassword";
+import TwoFAuthentication from "../pages/2fAuthentication/TwoFAuthentication";
+import LoginActivity from "../pages/loginActivity/LoginActivity";
+import LandingPage from "../components/landingPage/LandingPage";
 
 const AppRoutes = () => {
   const routes = [
-    { path: "/", element: <Register /> },
+    { path: "/", element: <LandingPage /> },
+    { path: "/register", element: <Register /> },
     { path: "/login", element: <Login /> },
     { path: "/contact", element: <ContactUs /> },
     { path: "/forgot-password", element: <ForgotPassword /> },
@@ -55,6 +58,8 @@ const AppRoutes = () => {
         { path: "support", element: <Support /> }, 
         { path: "profile", element: <ViewProfile /> }, 
         { path: "change-password", element: <ChangePassword /> }, 
+        { path: "2f-authentication", element: <TwoFAuthentication /> }, 
+        { path: "login-activity", element: <LoginActivity /> }, 
         {
           path: "account", // ✅ Removed the incorrect leading "/"
           element: <AccountSettings />,

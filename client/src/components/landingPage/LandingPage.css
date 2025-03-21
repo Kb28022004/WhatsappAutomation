@@ -1,0 +1,63 @@
+.landingPage-first-section{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FCFBFB;
+}
+.landingPage-first-section>h2{
+    color: #16404D;
+}
+.landingPage-first-section>h2>span{
+    color: #28D146;
+}
+.landingPageListContainer{
+    width: 43%;
+    display: flex;
+    align-items: center;
+}
+
+.landingPageList{
+    display: flex;
+    width: 45%;
+    
+}
+.landingPageListItem{
+    font: 500 16px 'Inter';
+    color: #18191F;
+    line-height: 24px;
+    transition: all 0.5s ease;
+}
+.landingPageListItem:hover{
+    transform: scale(1.2);
+}
+.landingPageButtonContainer{
+    display: flex;
+
+    gap: 65px;
+}
+.landingPageButtonContainer .landingPageLoginButton{
+    background-color: #F5F7FA;
+    border-radius: 6px;
+    color: #4CAF4F;
+    font: 500 14px 'Inter';
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    
+
+
+}
+.landingPageButtonContainer .landingPageSignUpButton{
+    background-color: #4CAF4F;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font: 500 14px 'Inter';
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+
+
+}
+.landingPageButtonContainer .landingPageLoginButton:hover,.landingPageButtonContainer .landingPageSignUpButton:hover{
+    transform: scale(1.2);
+}

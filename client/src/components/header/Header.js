@@ -69,7 +69,7 @@ const Header = () => {
                 <SettingsOutlinedIcon  fontSize='small'  style={{color:"#4CAF4F"}} />
                 <p>Change Password</p>
               </MenuItem>
-              <MenuItem className="anchorMenuItem" component={NavLink} to="/dashboard/2fa">
+              <MenuItem className="anchorMenuItem" component={NavLink} to="/dashboard/2f-authentication">
                 <BeenhereOutlinedIcon  fontSize='small' style={{color:"#4CAF4F"}}  />
                 <p>2 Factor Authentication</p>
               </MenuItem>
